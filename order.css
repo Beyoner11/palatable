@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+h1{
+    font-size: 50px;
+    color: #dbdbdbc4;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 25px;
+    color:rgb(240, 240, 240);
+    text-align: center; 
+}
+.home{
+    transform: scale(2.5);
+    position:absolute;
+    top:50px;
+    right: 70px;
+    color:#dbdbdbc4;
+} 
+main{
+    margin-bottom: 100px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+.card{
+    background-color: rgb(44, 44, 44);
+    width:380px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(41, 40, 40);
+    box-shadow:inset  5px 5px 5px -1px #ffffff1a,
+               inset -5px -5px 5px -1px #00000079 ;
+    text-align: center;
+}
+#Phone-Type--Streamline-Ultimate, #Maps--Streamline-Ultimate, #Shopping-Bag-Check--Streamline-Ultimate{
+    vertical-align: middle;
+}
+h4, p{
+    color:rgb(240, 240, 240);
+}
+button{
+    padding:10px 30px;
+    border-radius: 15px;
+    color:rgb(240, 240, 240);
+    border:none;
+   
+}
+.buttons{
+    border:transparent;
+    padding:10px;
+    background-color: rgb(15, 15, 15);
+    width: 270px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 38vw;
+}
+.order{
+    background-color: rgb(255, 208, 0);
+}
+.menu{
+    background-color: rgb(44, 44, 44); 
+}
+footer{
+    background-color: rgb(15, 15, 15);
+}
+.cover{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.logo{
+    color:#ffd358;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.dining{
+    font-weight: 400;
+}
+footer p{
+    color:#e6e6e6ee;
+    font-size: 14px;
+}
+h5{
+    color:#e6e6e6ee;
+}
+.line-2{
+    font-size: 12px;
+    color:#666;
+}
+.top{
+    align-self:center;
+}
+@media all and (max-width:767px){
+    section{
+        display: block;
+    }
+    .buttons{
+        margin-left: 15vw;
+    }
+    .home{
+        transform: scale(2);
+        position:absolute;
+        top:50px;
+        right: 20px;
+        color:#dbdbdbc4;
+    }
+}

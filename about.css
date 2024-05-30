@@ -1,0 +1,263 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);
+    color: beige;
+}
+header h2{ 
+    color:rgb(255, 208, 0);
+    font-family: sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+.plate{
+    background: url("hamburgers/carve.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    width: 600px;
+    transform: scale(1.5);
+    z-index: -10;
+}
+.content{
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 35px;
+    color:rgb(255, 208, 0);
+}
+p{
+    color:rgb(185, 194, 194);
+    margin-top: -20px;
+   
+}
+button{
+    padding:10px 30px;
+    border-radius: 15px;
+    color:rgb(240, 240, 240);
+    border:none;
+    cursor: pointer;
+    box-shadow:inset  10px 10px 10px -1px #ffffff1a,
+                inset -10px -10px 10px -1px #00000079 ;
+}
+.buttons{
+    border:transparent;
+    padding:10px;
+    background-color: rgb(15, 15, 15);
+    width: 270px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+   
+}
+.order{
+    background-color: rgb(255, 208, 0);
+}
+.menu{
+    background-color: rgb(44, 44, 44); 
+}
+.tag{
+    background-color: rgb(15, 15, 15);
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius:45px;
+    width: 200px;
+    box-shadow:10px 10px 10px rgb(15, 15, 15);
+    position:absolute;
+    left:30px;
+    top:550px;
+}
+.pic{
+    background:url('hamburgers/pexels-italo-melo-2379004.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    border:solid 1px rgba(255, 208, 0, 0.849);
+    width:40px ;
+    height: 40px;
+    border-radius: 20px;
+}
+h4{
+    color:rgba(255, 236, 152, 0.856);
+    font-size: 15px;
+    text-align: center;
+}
+.tag p{
+    color:#a5a5a5;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.cap{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items: center;
+    flex-direction: column;
+    border-radius:55px;
+    width: 200px;
+    box-shadow:10px 10px 10px rgb(15, 15, 15);
+    padding:0px 30px;
+    z-index: -5;
+    position:absolute;
+    left:350px;
+    top:100px;
+}
+.cap p{
+    color:rgb(168, 154, 92);
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 0 0 50px;
+}
+.no{
+    border:solid 2px rgb(15, 15, 15);
+    width:40px ;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(207, 170, 2);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transform: translateX(-45px);
+}
+.om{
+    z-index: 1;
+}
+ .ff{
+    z-index: 2;
+    transform: translateX(-15px);
+ } 
+ .dude{
+    z-index: 2;
+    transform: translateX(-25px);
+ } 
+ .gy{
+    z-index: 2;
+    transform: translateX(-35px);
+ }
+
+.scale{
+    color:rgba(255, 208, 0, 0.849);
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    top:20px;
+    left:-100px;
+    z-index: -20;
+    font-size: 18px;
+}
+img{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border:solid 2px rgb(15, 15, 15);
+    width:40px ;
+    height: 40px;
+    border-radius: 20px;
+}
+footer button{
+    background-color: rgb(15, 15, 15);
+    padding: 15px 60px;
+    margin-left: 45%;
+}
+button a{
+    text-decoration: none;
+    color:#a5a5a5;
+}
+.case1{
+    border:1px solid rgb(255, 208, 0);
+    height:450px;
+    width: 450px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 208, 0, 0.075);
+    border-radius: 50%;
+}
+.case2{
+    border:1px solid rgb(255, 208, 0);
+    height:480px;
+    width:480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -250px;
+    right: -250px;
+    border-radius: 50%;
+}
+
+@media all and (max-width:767px){
+    header h2{
+        font-size: 40px;
+    }
+    main{
+        display: block;
+        margin:0;
+    }
+    .plate{
+        height: 550px;
+        width: 550px;
+        transform: scale(1);
+    }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .buttons{
+        width: 150px;
+        height: 100px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        gap:20px;
+        align-items: center;
+        flex-direction: column;
+        margin-left:30%;
+       
+    }
+    .tag{
+        top:500px;
+    }
+    .cap{
+        z-index: 5;
+        left:30px;
+    }
+    .scale{
+       display: none;
+    }
+    footer button{
+        padding: 15px 80px;
+        margin-left: 28%;
+        margin-top: 40px;
+    }
+    .case2{
+        top:-270px;
+        right:-250px;
+        width: 420px;
+        height: 420px;
+    }
+    .case1{
+        width:400px ;
+        height:400px ;
+    }
+}

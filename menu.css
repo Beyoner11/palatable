@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+    /*rgb(15,15,15);
+    color:rgb(255, 208, 0);
+     color:rgb(240, 240, 240);*/
+}
+h1{
+    font-size: 50px;
+    color: #dbdbdbc4;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 25px;
+    color:rgb(240, 240, 240);
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 40px 40px;
+    gap:20px;
+}
+section{
+    background-color: rgb(44, 44, 44);
+    width:550px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(41, 40, 40);
+    box-shadow:inset  5px 5px 5px -1px #ffffff1a,
+               inset -5px -5px 5px -1px #00000079 ;
+}
+.image-container{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+img{
+    width: 250px;
+    height: 165px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+p{
+    color: #dbdbdb;
+}
+.tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.star{
+    color:rgb(255, 208, 0);
+}
+h4{
+    color:#fff;
+}
+.fig{
+    color:rgb(255, 208, 0);
+}
+button{
+    background-color:rgb(255, 208, 0);
+    padding:7px 20px;
+    border-radius: 15px;
+    color:rgb(240, 240, 240);
+    border:none;
+    cursor: pointer;
+    box-shadow:inset  10px 10px 10px -1px #ffffff1a,
+                inset -10px -10px 10px -1px #00000079 ;
+}
+footer button{
+    background-color: rgb(15, 15, 15);
+    padding: 15px 60px;
+    margin-left: 45%;
+}
+button a{
+    text-decoration: none;
+    color:#a5a5a5;
+}
